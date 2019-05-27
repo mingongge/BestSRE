@@ -17,7 +17,7 @@
 
 [运维工程师进阶升级之路思维导图](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485027&idx=1&sn=9849f12d63906c35aa18fab9f2e76052&chksm=e91b637fde6cea6921566f117965a1c0e258f3d12613a8fd79f534a0b3639b60572fe1e152c7&token=471976001&lang=zh_CN#rd)
 
-##1、基础篇
+## 1、基础篇
 #### 1.1、网络基础
 [网络组建之路由基础](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247483669&idx=1&sn=ba1a57329b3ec197288decc995f55a38&chksm=e91b6409de6ced1fe411de54a12513c205ad4b66036dbb2a57ebf16be782eb6eeb6290807047&scene=21#wechat_redirect)
 
@@ -217,7 +217,7 @@ Linux运维跳槽40道面试精华题
 
 BAT大厂面试题整理，附答案（视频哦）！
 
-##2、提高篇
+## 2、提高篇
 #### 2.1、数据库
 
 MySQL数据库入门常用基础命令
