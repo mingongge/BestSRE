@@ -45,7 +45,7 @@ Vmware Vsphere 特性集介绍
 
 实战案例——思科路由VPN配置
 
-计算机网络基础：这是一份详细HTTP学习指南
+[计算机网络基础：这是一份详细HTTP学习指南](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247486927&idx=1&sn=c0137c517e59db359e73ab2ff180dbb9&chksm=e91b68d3de6ce1c5ebf5761440db3c14b58b1549275358da233981094e27319a71de09bc03e5&scene=21#wechat_redirect)
 
 #### 1.2、系统基础
 [Linux系统—Centos7安装教程](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484381&idx=1&sn=08504c1d03c7cf51683abb617be11997&chksm=e91b66c1de6cefd7b003228bb7c6b74f70d950f11ce5f8679f593b30ed8a32e576f0bdc9587c&scene=21#wechat_redirect)
