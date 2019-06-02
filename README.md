@@ -162,11 +162,11 @@ LVS服务DR模式安装布署过程
 
 Mongodb数据库基础入门
 
-配置SVN的hooks功能自动更新代码
+[配置SVN的hooks功能自动更新代码](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484625&idx=1&sn=45ba9bb7c9fcff5847d3816801b8f924&chksm=e91b61cdde6ce8dbd31011bf147cdcfc5d81b10582aa5e16519e904fad469a536913a22f9677&scene=21#wechat_redirect)
 
-Linux系统Logrotate服务介绍
+[Linux系统Logrotate服务介绍](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484587&idx=1&sn=ac1dc0e37fcb2c5bed7cb4f4e974746b&chksm=e91b61b7de6ce8a11cef77d55650839c1a0d644d1e9c76d01cd5497134133c61965b8e5195ba&scene=21#wechat_redirect)
 
-配置Tomcat使用https协议（单向认证）
+[配置Tomcat使用https协议（单向认证）](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484594&idx=1&sn=c4a362ba576cd8875553e8f9aaca3059&chksm=e91b61aede6ce8b80c1b1f0c88bdfa5a9b9d9e5f307afdb86322da2754e826718c5108d3c290&scene=21#wechat_redirect)
 
 Zabbix自带模板监控MySQL服务
 
@@ -180,16 +180,16 @@ Hadoop HA 安装、布署
 
 小米开源 SQL 智能优化与改写工具 SOAR
 
-强大的开源企业级数据库监控利器Lepus
+[强大的开源企业级数据库监控利器Lepus](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485130&idx=1&sn=3cf2865a83e42d7e40f5933ce2acc81f&chksm=e91b63d6de6ceac016157af4181bf34fa104f926a8e6c71a08f04f806649952a8d066e04e52d&scene=21#wechat_redirect)
 
-开源组件ELK日志系统配置与管理
+[开源组件ELK日志系统配置与管理](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484955&idx=1&sn=8df945f91c4be79bbeef71a62ee2db61&chksm=e91b6307de6cea11982bfdd360f162b799c928a122fe0a65651941ad271b29c392a9bc6d6d47&scene=21#wechat_redirect)
 
 [永不死掉的进程，进程管理工具Supervisor](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485304&idx=1&sn=72fe897feae6846e6f20e175fee6337d&chksm=e91b6264de6ceb72a4db80ba35881452674b8a24b184ed01c41e2ca87062436e79835af26676&scene=21#wechat_redirect)
 
 #### 1.5、面试与跳槽
 [“金三银四”的折腾之聊一聊面试](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485171&idx=1&sn=d3feb169dd4c99536039c201cef510f1&chksm=e91b63efde6ceaf997285ffda605350a0abf81344073b9a6a00e874cfca6016516a93aa9aea7&scene=21#wechat_redirect)
 
-民工哥聊Linux学习方法
+[民工哥聊Linux学习方法](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484500&idx=1&sn=950715255e2e9464e76fbfd161bc7ecf&chksm=e91b6148de6ce85ec3eedcfa76b5423e69600a55d6983a8d7ae983c4f4f65d2736baf98e793c&scene=21#wechat_redirect)
 
 linux系统运维企业常见面试题集合（一）
 
@@ -197,7 +197,7 @@ linux系统运维企业常见面试题集合（二）
 
 linux系统运维企业常见面试题集合（三）
 
-Linux运维必会的100道MySql面试题之（一）
+[Linux运维必会的100道MySql面试题之（一）](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484699&idx=1&sn=964df87965f6b2cfc7282e7409a43958&chksm=e91b6007de6ce91193369fb4288c4b234a09e9323a4d6ac5ea2ec7564da147ccdf08caf6a3cf&scene=21#wechat_redirect)
 
 Linux运维必会的100道MySql面试题之（二）
 
@@ -211,11 +211,11 @@ Linux运维跳槽40道面试精华题
 
 面试中有哪些经典的数据库问题？
 
-史上最全的大厂Mysql面试题在这里
+[史上最全的大厂Mysql面试题在这里](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485499&idx=1&sn=33002d06faa43d8192c7acc3e0f6e1a7&chksm=e91b6d27de6ce4315a5d8dcc5d40d2f6430d84b736088f2d6c57d1aeb6e6814589e76cb9f7e9&scene=21#wechat_redirect)
 
 值得一看的35个Redis面试题总结
 
-BAT大厂面试题整理，附答案（视频哦）！
+[BAT大厂面试题整理，附答案（视频哦）！](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485499&idx=1&sn=33002d06faa43d8192c7acc3e0f6e1a7&chksm=e91b6d27de6ce4315a5d8dcc5d40d2f6430d84b736088f2d6c57d1aeb6e6814589e76cb9f7e9&scene=21#wechat_redirect)
 
 ## 2、提高篇
 #### 2.1、数据库
@@ -232,7 +232,7 @@ MySQL基础入门之常用命令介绍
 
 mysql数据库基础命令（一）
 
-MySQL 主从同步架构中你不知道的“坑”
+[MySQL 主从同步架构中你不知道的“坑”](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484992&idx=1&sn=fd0c6762d5041d53000ece475736c1ee&chksm=e91b635cde6cea4aeab99ce913f687c2e22d5aadc603d99b05eb6351e16d19d8f896bb84c138&scene=21#wechat_redirect)
 
 MySQL 主从同步架构中你不知道的“坑”
 
@@ -252,7 +252,7 @@ MySQL中update修改数据与原数据相同会再次执行？
 
 一次MySQL两千万数据大表的优化过程，三种解决方案！
 
-吐血总结｜史上最全的MySQL学习资料！！
+[吐血总结｜史上最全的MySQL学习资料！！](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247488761&idx=1&sn=238b95b1737a382ac70fe7fba4c8c7a3&chksm=e91b71e5de6cf8f3ded6b2d56ed921ab1dd679e3b98dc562213817a61a9563ff0567461e4d15&scene=21#wechat_redirect)
 
 1047 行 MySQL 详细学习笔记（值得学习）
 
