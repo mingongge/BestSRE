@@ -188,6 +188,7 @@ PostgreSQL 是一个功能强大的开源数据库系统。经过长达15年以�
 
 Nosql 数据库是一种非关系型数据库服务，它能解决常规数据库的并发能力，比如传统的数据库的IO与性能的瓶颈，同样它是关系型数据库的一个补充，有着比较好的高效率与高性能。专注于key-value查询的redis、memcached、ttserver。
 ![](https://files.mdnice.com/user/4435/266d2ca6-418b-482e-b032-a212bf88f091.png)
+
 我们这里会重点介绍：Redis、MongoDB、ElasticSearch。
 
 #### Redis
@@ -274,7 +275,6 @@ Hadoop 是用于处理大数据的工具之一。Hadoop 和其他软件产品通
 
 在大数据处理上，Hadoop并非是唯一的分布式处理架构，但是对于大部分的企业来说，**基于Hadoop已经能够满足绝大部分的数据需**求，因此才会成为现在的主流选择。
 
-
 ## 分布式存储
 
 分布式文件系统是分布式领域的一个基础应用，其中最著名的毫无疑问是 HDFS/GFS/ceph/MinIO 。如今该领域已经趋向于成熟，但了解它的设计要点和思想，对我们将来面临类似场景/问题时，具有借鉴意义。
@@ -286,6 +286,8 @@ Hadoop 是用于处理大数据的工具之一。Hadoop 和其他软件产品通
 作为目前世界上**最先进的分布式版本控制系统（没有之一）**，Git 是一个开源的分布式版本控制软件,用以有效、高速的处理从很小到非常大的项目版本管理。Git 最初是由Linus Torvalds设计开发的，用于管理Linux内核开发。随着时间的推移，Git 发展到今天，已经成为了众多开发者必备的开发工具。
 
 详细内容可查阅专栏：[Git 技术](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1790418411420778499#wechat_redirect)
+
+## 企业级云计算平台 Openstack
 
 ## 日志平台
 
