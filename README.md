@@ -310,9 +310,31 @@ Hadoop 是用于处理大数据的工具之一。Hadoop 和其他软件产品通
 
 ## 企业面试
 
-介绍企业面试经验、各类面试题详解等（面试题与面试经验总结分享）。
+介绍企业面试经验、各类面试题详解等（面试题与面试经验总结分享），下面给大家列举了一些常见的面试题，更多关于企业面试题相关的知识学习，可以参考专栏：[企业面试题集合]([url](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1790435592028160001&scene=21#wechat_redirect))
 
+[linux系统运维企业常见面试题集合（一）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484466&idx=1&sn=6cd7fab55165c5a9e72180c207e26954&chksm=e91b612ede6ce8389887bfbb7c9176a52a17c9cb50d05f9b134aec52a7366cc5cda4fe3cd938&scene=21#wechat_redirect)  
 
+[linux系统运维企业常见面试题集合（二）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484473&idx=1&sn=d8fbb0361bc170ff9ab069f9ac4c5a94&chksm=e91b6125de6ce83361997321661376e7830863347560c1c428881b64cccc2c1db3e3be9e7620&scene=21#wechat_redirect)  
+
+[linux系统运维企业常见面试题集合（三）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484484&idx=1&sn=118836c2f991e0925169804277bbbf90&chksm=e91b6158de6ce84edde1b15ce61d523ca06203b245180486d58b33bd54412187260d1a237df3&scene=21#wechat_redirect)
+
+[Linux运维必会的100道MySql面试题之（一）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484699&idx=1&sn=964df87965f6b2cfc7282e7409a43958&chksm=e91b6007de6ce91193369fb4288c4b234a09e9323a4d6ac5ea2ec7564da147ccdf08caf6a3cf&scene=21#wechat_redirect)  
+
+[Linux运维必会的100道MySql面试题之（二）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484703&idx=1&sn=3eaa3a3cf822849996be89d93ffb33b9&chksm=e91b6003de6ce915d7e9f246b457965fc84c0c69fe4a637fae250367f8629d1577f1cbacc3d7&scene=21#wechat_redirect)  
+
+[Linux运维必会的100道MySql面试题之（三）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484710&idx=1&sn=eb22de8c7ff6f1dcbc4c0ba4226449d0&chksm=e91b603ade6ce92c2c4c619157e72fd1a1fe0d967bdc0373ddc08a1eb114897ed8f7a2f1ba46&scene=21#wechat_redirect)  
+
+[Linux运维必会的100道MySql面试题之（四）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484835&idx=1&sn=d77c8f0cad7e65c34fb792004bdabb14&chksm=e91b60bfde6ce9a95afae4681a8017f6d1b7d90506acc0704827ddb12ce9d48cbe756d577916&scene=21#wechat_redirect)
+
+[Linux运维跳槽40道面试精华题](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247488738&idx=1&sn=3ca0cab0ade2c49aa5b1188ece9a5cc8&chksm=e91b71fede6cf8e8b7f15b271cc411dbb7088afc20d910d5765412c6a5ae1bf9c63995f5723c&scene=21#wechat_redirect)  
+
+[精心汇总的 24 道 shell 脚本面试题](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247488571&idx=1&sn=6f29df5a384bd68ee20c752234e7ae69&chksm=e91b7127de6cf83195fab6d7da4169ebf9aaaf458b271d832072cbed029de0752d003ddb970a&scene=21#wechat_redirect)  
+
+[面试中有哪些经典的数据库问题？](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247486600&idx=1&sn=ffe2f7e8650db98bb1dfe874447b6863&chksm=e91b6994de6ce0825dcd6dc3cfeee625cd997e975a9d5fca92533967ff870342ac649d7733a1&scene=21#wechat_redirect)  
+
+[史上最全的大厂Mysql面试题在这里](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485499&idx=1&sn=33002d06faa43d8192c7acc3e0f6e1a7&chksm=e91b6d27de6ce4315a5d8dcc5d40d2f6430d84b736088f2d6c57d1aeb6e6814589e76cb9f7e9&scene=21#wechat_redirect)  
+
+[值得一看的35个Redis面试题总结](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247486949&idx=1&sn=ba641d2eae629d9f1fbc5c5c79931c26&chksm=e91b68f9de6ce1efb41a418b8feab1b5a475c0ca478cbce1d4e8906be7f89086ec2a4f532a86&scene=21#wechat_redirect)
 
 学完这些内容这后，可以这么说，还是仅仅是开始，更多的还是要将所学的知识结合实际的生产环境，然后通过不断的实践去总结，慢慢的一点点去补充自己的整个知识体系的高墙，从而使之更坚固、更持久、更强大。
 
