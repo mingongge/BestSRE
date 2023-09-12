@@ -297,22 +297,19 @@ Hadoop 是用于处理大数据的工具之一。Hadoop 和其他软件产品通
 
 监控系统是整个运维环节，乃至整个产品生命周期中最重要的一环，事前及时预警发现故障，事后提供翔实的数据用于追查定位问题。企业生产环境监控系统介绍，包括但不限于各类工具（Zabbix、Prometheus 等）安装、配置、优化与实践经验总以及排错等，详细的监控工具使用可查阅专栏：[监控系统](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1803140860667101185#wechat_redirect)。
 
-更多关于企业级监控平台的建设与运维管理，可以参阅专栏：[]()
-
+更多关于企业级监控平台的建设与运维管理，可以参阅专栏：
 
 ## 自动化系列（DevOps）
 
 介绍企业自动化体系建设（DevOps）相关的日常运维所需知识学习。比如：Jenkins、CI/CD等。
 
-
 ## 常用工具
 
 介绍常用工具（命令工具、其它工具）相关的日常运维所需知识体系。
 
-
 ## 企业面试
 
-介绍企业面试经验、各类面试题详解等（面试题与面试经验总结分享），下面给大家列举了一些常见的面试题，更多关于企业面试题相关的知识学习，可以参考专栏：[企业面试题集合]([url](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1790435592028160001&scene=21#wechat_redirect))
+介绍企业面试经验、各类面试题详解等（面试题与面试经验总结分享），下面给大家列举了一些常见的面试题，更多关于企业面试题相关的知识学习，可以参考专栏：[企业面试题集合](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1790435592028160001&scene=21#wechat_redirect)。
 
 [linux系统运维企业常见面试题集合（一）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484466&idx=1&sn=6cd7fab55165c5a9e72180c207e26954&chksm=e91b612ede6ce8389887bfbb7c9176a52a17c9cb50d05f9b134aec52a7366cc5cda4fe3cd938&scene=21#wechat_redirect)  
 
