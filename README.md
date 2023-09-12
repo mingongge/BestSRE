@@ -64,9 +64,13 @@ Linux 运维工程师进阶升级之路由公众号【民工哥技术之路】�
 
 详细内容可以查阅专栏：[Nginx 学习专栏](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1463291332122017795#wechat_redirect)
 
-## 数据库
+## 数据库基础入门
 
-#### MySQL 数据库
+![image](https://github.com/mingongge/BestSRE/assets/25194524/5dcf9ed6-bedd-4861-9b51-d0039d04b26b)
+
+无论你是开发、运维，还是测试，数据库是必备的技能之一。在正式学习相关具体的数据库服务之前，我们还需要了解一下一些基础知识：可以查看：[数据库基础知识专栏](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=2786184098871705603#wechat_redirect)）。
+
+## MySQL 数据库
 ![image](https://github.com/mingongge/BestOPS/assets/25194524/a82679b7-f550-489f-bc0a-acdeaaee9804)
 
 MySQL 数据库的基础知识，如：数据类型、存储引擎、性能优化（软、硬及sql语句），MySQL 数据库的高可用架构的部分，如：主从同步、读写分离的原理与实践、跨城容灾、数据的备份与恢复等，然后介绍了 MySQL 的管理命令、数据库语言的命令、库与表的管理工具、性能分析与工具的使用、MySQL 数据库服务器的硬件选型、性能监控、开发设计规范等知识。
@@ -135,7 +139,7 @@ MySQL 数据库的基础知识，如：数据类型、存储引擎、性能优�
 
 [死磕数据库系列（三十六）:MySQL 开发设计规范、SQL 编写规范及安全规范](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247537438&idx=2&sn=f8d46d574d50c283c5496ba4e71bd13c&chksm=e9183602de6fbf14c9885d5abde23d0d0ba3cbe9f2e8aa6a705f43c194dfb8a7f48ac3d5ec2c&scene=21#wechat_redirect)
 
-#### PostgreSQL 数据库
+## PostgreSQL 数据库
 
 PostgreSQL 是一个功能强大的开源数据库系统。经过长达15年以上的积极开发和不断改进，PostgreSQL已在可靠性、稳定性、数据一致性等获得了业内极高的声誉。目前PostgreSQL可以运行在所有主流操作系统上，包括Linux、Unix和Windows。
 
