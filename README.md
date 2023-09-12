@@ -42,17 +42,11 @@ Linux 运维工程师进阶升级之路由公众号【民工哥技术之路】�
 
 这一块的知识点，在入门阶段是非常重要的一块，掌握的好坏直接影响到后面的具体操作与学习，而且，这里列举的这些常用管理命令，也是我们日常工作中要用到的（属于重点掌握内容之一）。
 
-![](https://files.mdnice.com/user/4435/353a1fdd-c6cb-4a05-aa5e-7cd59068e88e.png)
-
 这部分详细介绍[系统运维常用命令](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1661147427422208001&scene=21#wechat_redirect)及其参数说明，并且配有应用案例详解，基础必备！
 
 ## 脚本入门与进阶
 
-这部分介绍Shell脚本编程的基础入门与进阶知识，包括编写方法分享、案例分享。
-
-![](https://files.mdnice.com/user/4435/f18befa4-2329-4152-9a50-9023252e434e.png)
-
-虽然说现在Python在运维工作中已经使用很普遍，但是很多企业实际工作中的时候还是会用到 shell 脚本，它有助于你在工作环境中自动完成很多任务。在减少重复工作量的同时，也会提高不少工作效率！因此，Shell脚本编程也是运维工程师必备的工作技能之一！
+这部分介绍Shell脚本编程的基础入门与进阶知识，包括编写方法分享、案例分享。虽然说现在Python在运维工作中已经使用很普遍，但是很多企业实际工作中的时候还是会用到 shell 脚本，它有助于你在工作环境中自动完成很多任务。在减少重复工作量的同时，也会提高不少工作效率！因此，Shell脚本编程也是运维工程师必备的工作技能之一！
 
 更多详细内容可以查阅专栏：[Shell 脚本编程](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1790345250847195139#wechat_redirect)
 
@@ -60,20 +54,15 @@ Linux 运维工程师进阶升级之路由公众号【民工哥技术之路】�
 
 基础的服务安装、配置文件介绍、虚拟主机配置实践、Nginx优化配置详解、LNMP架构Nginx反向代理负载均衡配置、Nginx+Tomcat多实例及负载均衡配置、高可用、Nginx 版本的平滑升级与回滚、Nginx限流配置、Nginx日志生产实战、Nginx配置文件在线生成工具介绍等。
 
-![image](https://github.com/mingongge/BestOPS/assets/25194524/446ff6e0-834f-4473-802b-0e33869e464a)
-
 详细内容可以查阅专栏：[Nginx 学习专栏](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1463291332122017795#wechat_redirect)
 
 ## 数据库基础入门
 
-![image](https://github.com/mingongge/BestSRE/assets/25194524/5dcf9ed6-bedd-4861-9b51-d0039d04b26b)
-
 无论你是开发、运维，还是测试，数据库是必备的技能之一。在正式学习相关具体的数据库服务之前，我们还需要了解一下一些基础知识：可以查看：[数据库基础知识专栏](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=2786184098871705603#wechat_redirect)）。
 
 ## MySQL 数据库
-![image](https://github.com/mingongge/BestOPS/assets/25194524/a82679b7-f550-489f-bc0a-acdeaaee9804)
 
-MySQL 数据库的基础知识，如：数据类型、存储引擎、性能优化（软、硬及sql语句），MySQL 数据库的高可用架构的部分，如：主从同步、读写分离的原理与实践、跨城容灾、数据的备份与恢复等，然后介绍了 MySQL 的管理命令、数据库语言的命令、库与表的管理工具、性能分析与工具的使用、MySQL 数据库服务器的硬件选型、性能监控、开发设计规范等知识。
+整个知识体系包括以下几个部分。MySQL 数据库的基础知识，如：数据类型、存储引擎、性能优化（软、硬及sql语句），MySQL 数据库的高可用架构的部分，如：主从同步、读写分离的原理与实践、跨城容灾、数据的备份与恢复等，然后介绍了 MySQL 的管理命令、数据库语言的命令、库与表的管理工具、性能分析与工具的使用、MySQL 数据库服务器的硬件选型、性能监控、开发设计规范等知识。
 
 [死磕数据库系列（五）：MySQL 数据类型与存储引擎介绍](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247535696&idx=2&sn=2d647eac6153abdf1d37cb61da94ecab&chksm=e918294cde6fa05ab94cddccf46389d85877b4369c86b91df88b9a7e355bcf9c7c100a8d8058&scene=21#wechat_redirect)  
 
@@ -143,8 +132,6 @@ MySQL 数据库的基础知识，如：数据类型、存储引擎、性能优�
 
 PostgreSQL 是一个功能强大的开源数据库系统。经过长达15年以上的积极开发和不断改进，PostgreSQL已在可靠性、稳定性、数据一致性等获得了业内极高的声誉。目前PostgreSQL可以运行在所有主流操作系统上，包括Linux、Unix和Windows。
 
-![](https://files.mdnice.com/user/4435/9d288e98-a475-498a-877f-a714b251cfb3.png)
-
 [进阶数据库系列（一）：PostgreSQL 基础入门与安装](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247541430&idx=2&sn=c21eb45f00e6ad012cc39c35bb29b0a2&chksm=e91847aade6fcebc55fe12c7784a1484a8bad1077abe46433e6ee291dc082eb41f9dd6f2f076&scene=21#wechat_redirect)  
 
 [进阶数据库系列（二）：PostgreSQL 目录结构与配置文件 postgresql.conf 详解](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247541440&idx=2&sn=3a677522547ded1680f2875e7a1e5b1e&chksm=e91847dcde6fceca0d1470d66c299391226f2eef9361ddea99d02f711a3b5fdf7a12067a13d6&scene=21#wechat_redirect)  
@@ -197,6 +184,137 @@ PostgreSQL 是一个功能强大的开源数据库系统。经过长达15年以�
 
 [进阶数据库系列（二十六）：PostgreSQL 数据库监控管理](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247542031&idx=2&sn=a307604c5dcd91bd8020286b2cc39af5&chksm=e9184013de6fc905a0e526cf104336ca5bdbacf4a42158f633b258136ffbe07d4d899010b299&scene=21#wechat_redirect)
 
+## Nosql 数据库
+
+Nosql 数据库是一种非关系型数据库服务，它能解决常规数据库的并发能力，比如传统的数据库的IO与性能的瓶颈，同样它是关系型数据库的一个补充，有着比较好的高效率与高性能。专注于key-value查询的redis、memcached、ttserver。
+![](https://files.mdnice.com/user/4435/266d2ca6-418b-482e-b032-a212bf88f091.png)
+我们这里会重点介绍：Redis、MongoDB、ElasticSearch。
+
+#### Redis
+
+Redis 是一款内存高速缓存数据库。Redis全称为：Remote Dictionary Server（远程数据服务），使用C语言编写，Redis是一个key-value存储系统（键值存储系统），支持丰富的数据类型，如：String、list、set、zset、hash。
+
+详细内容可查阅专栏：
+
+#### MongoDB
+
+MongoDB 是面向文档的 NoSQL 数据库，用于大量数据存储。MongoDB 是一个在 2000 年代中期问世的数据库。属于 NoSQL 数据库的类别。
+
+详细内容可查阅专栏：
+
+#### ElasticSearch
+
+ElasticSearch是一款非常强大的、基于Lucene的开源搜索及分析引擎；它是一个实时的分布式搜索分析引擎，它能让你以前所未有的速度和规模，去探索你的数据。它被用作**全文检索**、**结构化搜索**、**分析**以及这三个功能的组合。
+
+详细内容可查阅专栏：
+
+## Tomcat 技术实践
+
+Tomcat 隶属于 Apache 基金会，是开源的轻量级 Web 应用服务器，使用非常广泛。客户端用户点击浏览器服务连接，浏览器通过客户端底层服务通过路由传送报文，目标服务器获取解析报文，Tomcat监听程序触发处理请求。
+
+Tomcat 相关知识点在面试中出现的几率并不高，所以，很多人忽略了对 Tomcat 相关技能的掌握，其实它也是非常重要的知识点之一。详细内容可查阅专栏：[Tomcat web 技术实践](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1794746582974726146#wechat_redirect)。
+
+## 企业生产项目实践
+
+一个中小企业生产环境项目实践（将之前的知识连贯运用的实践）：
+- [Linux 系统集群架构线上项目配置实战（一）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484723&idx=1&sn=33ce27a307af770107c2c453dff8dd27&chksm=e91b602fde6ce939ee780fa7fa748d6600e64339bac6539ba825430b97dcf2243d0f57e8a31c&scene=21#wechat_redirect)  
+- [Linux 系统集群架构线上项目配置实战（二）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484733&idx=1&sn=7f6d9a0d408502de57391ac540d952b6&chksm=e91b6021de6ce937854db9a0a74b4a60377db4cc4487c584368f9c772fa195e93d3b0db9b7c9&scene=21#wechat_redirect)  
+- [Linux 系统集群架构线上项目配置实战（三）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484741&idx=1&sn=7ee21ffdc398056fcf5b4fc23250104c&chksm=e91b6059de6ce94f093352eae196882963018872a5c58b1907e804a82cb8f34e4a8c6a0c97ca&scene=21#wechat_redirect)
+- [Linux 系统集群架构线上项目配置实战（四）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484751&idx=1&sn=54d4bdb6946da8f3df8eb3781853cba7&chksm=e91b6053de6ce945e07595ed3ab754d9fd649e3ddcd543fcc757b7b60f049408e54f50159f8a&scene=21#wechat_redirect)  
+- [Linux 系统集群架构线上项目配置实战（五）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247484758&idx=1&sn=285547d2f6a105b5e71a41f5b5487c4e&chksm=e91b604ade6ce95c2c03fc3599d1d25d550dabe28d73b260b2715e0ba0c6cc931be4ea4f279d&scene=21#wechat_redirect)
+
+## 常用中间件服务
+
+介绍常用中间件服务（Kafka\Rabbitmq\Zookeeper等）相关的日常运维所需知识体系。
+
+#### Kafka
+
+Kafka是一个开源消息系统，由Scala写成。是由Apache软件基金会开发的一个开源消息系统项目，该项目的目标是为处理实时数据提供一个统一、高通量、低等待的平台。
+
+关于消息中间件 Kafka 系列的学习文章，请参阅：
+
+#### Rabbitmq
+
+RabbitMQ是由erlang语言开发，基于AMQP协议实现的消息队列，它是一种应用程序之间的通信方法，消息队列在分布式系统开发中应用非常广泛。
+- 官网地址：https://www.rabbitmq.com
+- Git地址：https://github.com/rabbitmq
+
+RabbitMQ 是一个消息中间件：它接受并转发消息。更多关于消息中间件 RabbitMQ 系列的学习文章，请参阅：
+
+#### Zookeeper
+
+zooKeeper 是一个分布式的，开放源码的分布式应用程序协调服务，是Google的Chubby一个开源的实现，是Hadoop和Hbase的重要组件。
+
+更多关于 Zookeeper 系列的学习文章，请参阅：
+
+## Docker 容器技术
+
+介绍 docker入门、安装、常用的命令、三剑客、私有仓库搭建以及容器监控等方面的总结。
+
+详细内容可查阅专栏：[Docker](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1479950328543444997#wechat_redirect)
+
+## Kubernetes 技术实践
+
+介绍 Kubernetes 技术实践知识体系。从原理、部署开始，逐步深入去学各个知识点，比如：Pod 的实现原理、YAML语法、Kubectl使用指南、资源控制、数据存储、Harbor仓库、资源清单、服务发现、Ingress 服务、集群调度、集群管理工具、面试题、生产实践等。
+
+详细内容可查阅专栏：[k8s 技术实践](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1790241575034290179#wechat_redirect)
+
+## 大数据运维体系
+
+#### 大数据概述
+
+大数据（big data），指的是在一定时间范围内不能以常规软件工具处理（存储和计算）的大而复杂的数据集。说白了大数据就是使用单台计算机没法在规定时间内处理完，或者压根就没法处理的数据集。
+
+#### 大数据的特性
+- `大量 (Volume)`	：大数据的“大”首先体现在数据量上。在实际应用中，大数据的数据量通常高达数十 TB，甚至数百 PB。
+- `高速 (Velocity)`：大数据的“高速”指高速接收乃至处理数据 — 数据通常直接流入内存而非写入磁盘。
+- `多样化 (Variety)`：多样化是指数据类型众多。
+  
+Hadoop 是用于处理大数据的工具之一。Hadoop 和其他软件产品通过特定的专有算法和方法来解释或解析大数据搜索的结果。
+
+在大数据处理上，Hadoop并非是唯一的分布式处理架构，但是对于大部分的企业来说，**基于Hadoop已经能够满足绝大部分的数据需**求，因此才会成为现在的主流选择。
+
+
+## 分布式存储
+
+分布式文件系统是分布式领域的一个基础应用，其中最著名的毫无疑问是 HDFS/GFS/ceph/MinIO 。如今该领域已经趋向于成熟，但了解它的设计要点和思想，对我们将来面临类似场景/问题时，具有借鉴意义。
+
+详细内容可查阅专栏：[分布式存储技术实践](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=2697652031347687427#wechat_redirect)
+
+## 代码管理（Git）
+
+作为目前世界上**最先进的分布式版本控制系统（没有之一）**，Git 是一个开源的分布式版本控制软件,用以有效、高速的处理从很小到非常大的项目版本管理。Git 最初是由Linus Torvalds设计开发的，用于管理Linux内核开发。随着时间的推移，Git 发展到今天，已经成为了众多开发者必备的开发工具。
+
+详细内容可查阅专栏：[Git 技术](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1790418411420778499#wechat_redirect)
+
+## 日志平台
+
+介绍日志平台相关的日常运维所需知识体系，日志管理也是日常工作中非常重要的一项内容。比较主流的是ELK stack和Graylog。ELK目前很多公司都在使用，是一种很不错的分布式日志解决方案。详细内容可查阅专栏：[日志平台](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1790404884605829126#wechat_redirect)。
+
+## 企业生产监控
+
+监控系统是整个运维环节，乃至整个产品生命周期中最重要的一环，事前及时预警发现故障，事后提供翔实的数据用于追查定位问题。企业生产环境监控系统介绍，包括但不限于各类工具（Zabbix、Prometheus 等）安装、配置、优化与实践经验总以及排错等，详细的监控工具使用可查阅专栏：[监控系统](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0MDQ4MTM5NQ==&action=getalbum&album_id=1803140860667101185#wechat_redirect)。
+
+更多关于企业级监控平台的建设与运维管理，可以参阅专栏：[]()
+
+
+## 自动化系列（DevOps）
+
+介绍企业自动化体系建设（DevOps）相关的日常运维所需知识学习。比如：Jenkins、CI/CD等。
+
+
+## 常用工具
+
+介绍常用工具（命令工具、其它工具）相关的日常运维所需知识体系。
+
+
+## 企业面试
+
+介绍企业面试经验、各类面试题详解等（面试题与面试经验总结分享）。
+
+
+
+学完这些内容这后，可以这么说，还是仅仅是开始，更多的还是要将所学的知识结合实际的生产环境，然后通过不断的实践去总结，慢慢的一点点去补充自己的整个知识体系的高墙，从而使之更坚固、更持久、更强大。
 
 
 ## 相关的内容持续更新中~~~~~
