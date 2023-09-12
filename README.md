@@ -29,7 +29,7 @@ Linux 运维工程师进阶升级之路由公众号【民工哥技术之路】�
 
 这是每一个IT从业者必备的基础中的基础，比如：TCP/IP协议、路由基础这些[必备的 6 大计算机网络基础知识点](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247529511&idx=1&sn=9b1f3abfdf18e9cf24b31eccc063fdfe&chksm=e918113bde6f982d303d6a3d47235fd17f3e7ce241e816b39c0b47896791f498c54281e22496&token=1107524505&lang=zh_CN#rd)！是一定要熟悉与掌握的，否则无法展开后面的系统学习的。下面一张比较全的计算网络基础的学习思维导图：
 ![](https://files.mdnice.com/user/4435/f9a88b78-7707-42ab-ad8b-b8177740aa40.png)
-如果你是有此方面基础的可不必学习了，如果是没有网络基础的，建议你去看一看我[公众号](https://mp.weixin.qq.com/mp/homepage?__biz=MzI0MDQ4MTM5NQ==&hid=8&sn=1db566bed001a8db6d9927540ccc2156&scene=25#wechat_redirect)上很早之前写过的一些关于网络方面的文章，这样也可以很快的熟悉这方面的知识点。
+如果你是有此方面基础的可不必学习了，如果是没有网络基础的，建议你去看一看我[公众号](https://mp.weixin.qq.com/mp/homepage?__biz=MzI0MDQ4MTM5NQ==&hid=8&sn=1db566bed001a8db6d9927540ccc2156&scene=25#wechat_redirect)上很早之前写过的一些关于[网络](https://mp.weixin.qq.com/mp/homepage?__biz=MzI0MDQ4MTM5NQ==&hid=11&sn=34e1e7ed1b2af3d38e44705424ad32d2)方面的文章，这样也可以很快的熟悉这方面的知识点。
 
 #### 系统基础
 ![](https://files.mdnice.com/user/4435/4e25e686-f495-4823-95b8-2ba753223aab.png)
