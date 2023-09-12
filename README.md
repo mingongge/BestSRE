@@ -11,10 +11,11 @@
 |V3.0|2021-04-20|补充整个知识体系|
 
 ## 前言
-运维工程师进阶升级之路由公众号【民工哥技术之路】作者【民工哥】编写、整理发布而成，***作者的故事：*** [民工哥的十年故事续集：杭漂十年，今撤霸都！](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485931&idx=1&sn=b288b703a209edb677411e101fbb08af&chksm=e91b6cf7de6ce5e19304da227e701fc604f0a273ab750710de8412b13bde5bca735b79176665&scene=21#wechat_redirect)
-现目前整个系列文章统一入口也在公众号上，后期更多增加、完善进去的内容也会统一同步发布到公众号中，欢迎大家关注（可扫文末二维码加关注哦）！！
+Linux 运维工程师进阶升级之路由公众号【民工哥技术之路】作者【民工哥】编写、整理发布而成，我的故事： [民工哥的十年故事：杭漂十年，今撤霸都！](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485931&idx=1&sn=b288b703a209edb677411e101fbb08af&chksm=e91b6cf7de6ce5e19304da227e701fc604f0a273ab750710de8412b13bde5bca735b79176665&scene=21#wechat_redirect)。回头看看，写公众号也有快六年的时间了，做一件事很容易，但坚持做一件事情六年应该不是件容易的事。一路走来，收获了众多读者的肯定与支持，同时在自己的知识体系建立、建全上也取得了不小的成就。在这期间，我写的书：[Linux系统运维指南](https://mp.weixin.qq.com/s/BuivnIHDedFO1CLuQnHG_w) 出版（2020年4月），同年10月，我拿到了2020年人民邮电出版社/异步社区《[最具影响力作者](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247501495&idx=1&sn=0eedeeb5bf2c37ae4eb385ce592cf2d1&chksm=e918a3abde6f2abd0eb687183aa8acd1fe7118d5ab0c5c7ac2fbd7925c3ae375c275bcad8d63&token=1107524505&lang=zh_CN#rd)》。除了感谢这个伟大的时代、家人、朋友，还要感谢无数支持我的读者们，谢谢你们。
 
-[运维工程师进阶升级之路思维导图](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485027&idx=1&sn=9849f12d63906c35aa18fab9f2e76052&chksm=e91b637fde6cea6921566f117965a1c0e258f3d12613a8fd79f534a0b3639b60572fe1e152c7&token=471976001&lang=zh_CN#rd)
+其实，很多熟悉我的老读者都知道，我也算是 0 基础起步自学至今的，所以，对于自学，我也总结了一些方法，或者说分享一下我的经验：[民工哥自学方法](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247491161&idx=2&sn=3a12a4fdd41ab0dc9cfbc48e6c62e3f4&chksm=e91b7b45de6cf253bcf7cd5729e5963ca5f85ba1cbe3e2d61c7a9d18b359fc43887a08ee1aa0&scene=21#wechat_redirect)。对于需了解整个运维知识体系学的过程可以参考：[运维工程师进阶升级之路思维导图](https://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247485027&idx=1&sn=9849f12d63906c35aa18fab9f2e76052&chksm=e91b637fde6cea6921566f117965a1c0e258f3d12613a8fd79f534a0b3639b60572fe1e152c7&token=471976001&lang=zh_CN#rd)。
+
+现目前整个系列文章统一入口也在公众号上，后期更多增加、完善进去的内容也会统一同步发布到公众号中，欢迎大家关注（**可扫文末二维码加关注哦**）！！
 
 运维工程师这个岗位不同于后端开发岗位，到底运维工程师平时做什么？[老司机告诉你：正规的运维工作是什么的?](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247488821&idx=2&sn=1c53372eb6553583d95b221f78fa540c&chksm=e91b7029de6cf93f2725122f3e109288c1117aac0754f97ab77f976871f3713880da7a78a76c&scene=21#wechat_redirect)。而且这个岗位对技能要求是越来越高，不仅仅要求需要知识的深度，还要求要有一定的广度，深度就是需要不断学习运维知识体系的知识，广度就是运维岗位上下游（测试与开发）岗位的一些知识体系，至少是需要做到了解基础的掌握程度。
 
