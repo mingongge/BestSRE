@@ -719,10 +719,6 @@ Hadoop 是用于处理大数据的工具之一。Hadoop 和其他软件产品通
 
 OpenStack 是由一系列具有 RESTful 接口的Web服务所实现的，是一系列组件服务集合。Openstack 是一个云平台管理的项目，我们可以使用Openstack来构建一个私有云架构，并提供IaaS的云服务。Openstack 包含三大项：计算、网络和存储。其主要目标是简化资源的配置和管理，把计算、网络和存储资源抽象成虚拟资源池，并根据需要对外提供服务。
 
-Openstack官网网址为：https://www.openstack.org/，其首页如下所示：
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/tuSaKc6SfPotchgZO0AGfClIw6eoy9sVSW44VmxxYMaISEmVE3ku6DZURIqiaiaG1tVw7eOwCTwYliaK7JdgKHJDw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
-
 [玩转企业云计算平台系列（一）：OpenStack 基础入门](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247547507&idx=2&sn=389d393ea184f62fede318a86fd8b239&chksm=e9185f6fde6fd679359e7791b4e84d6ed01a1c8ce8785a24bcf4fe8e9af0ea51ea23a3d97e43&scene=21#wechat_redirect)  
 
 [玩转企业云计算平台系列（二）：Openstack 基础环境部署](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247547590&idx=2&sn=e7006ec77b12f8cca2bf28a18b19448e&chksm=e9185fdade6fd6cc4a4e7019a063b3fb1dadf2908b08d64e1ae2dbace4a0b80e09df8c172fec&scene=21#wechat_redirect)  
