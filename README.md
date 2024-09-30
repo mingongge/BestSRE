@@ -193,21 +193,131 @@ Nosql 数据库是一种非关系型数据库服务，它能解决常规数据�
 
 #### Redis
 
-Redis 是一款内存高速缓存数据库。Redis全称为：Remote Dictionary Server（远程数据服务），使用C语言编写，Redis是一个key-value存储系统（键值存储系统），支持丰富的数据类型，如：String、list、set、zset、hash。
+Redis 是一款内存高速缓存数据库。Redis全称为：Remote Dictionary Server（远程数据服务），使用C语言编写，Redis是一个key-value存储系统（键值存储系统），支持丰富的数据类型，如：String、list、set、zset、hash。Redis是一种支持key-value等多种数据结构的存储系统。可用于缓存，事件发布或订阅，高速队列等场景。支持网络，提供字符串，哈希，列表，队列，集合结构直接存取，基于内存，可持久化。
 
-详细内容可查阅专栏：
+无论是运维还是开发、测试，对于 NoSQL 数据库之一的 Redis 也是必学知识体系之一。
+
+[死磕 NoSQL 数据库系列（一）：Redis 基础理论与安装配置](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247537510&idx=2&sn=d33f3c4ed393ee49a9103f75f0ced0fc&chksm=e918367ade6fbf6cf439b29a8afd7521e17da4712ced1a0c4104f87d1792c3094214c59ffbc8&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（二）：Redis 9 种数据类型和应用场景](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247537550&idx=2&sn=f3e48a2acef5927ac6433ece8413caf2&chksm=e9183692de6fbf844def0e8df867df830567d6818ba74bd1d2c17c9723c2cfaacb895e89acb7&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（三）：Redis 常用管理命令](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247537688&idx=2&sn=1bfd3def78d00fa065535d10bf688266&chksm=e9183104de6fb81259727962c4de0e1d4af4a925f049539d9999922c12e8594806603f0f10b7&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（四）：Redis 发布与订阅(pub/sub)](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247537749&idx=2&sn=ac1a8e8ed9800b4e82b897094c44c989&chksm=e9183149de6fb85f0e0b455419cbdec488bd7c1e1651922cb0752d7579a30cfa4b66d89ddfe3&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（五）：Redis 事件机制详解](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247537863&idx=2&sn=41382754242ffab0e73a2b8d6ce842c6&chksm=e91831dbde6fb8cdcd6ba6a7898035edbdd8ffed2a1f43dc7f6469cb0e3041eebda6e937bf46&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（六）：Redis 事务详解](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247537967&idx=2&sn=033434a398d614532dcc8290b103b51f&chksm=e9183033de6fb9256149bc89f33e9dd05a89f052f9d2163142cb7433bc7e9711c26792abe392&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（七）：Redis 持久化（RDB和AOF）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247537989&idx=2&sn=374c05e1c490edeab1f9bd85d668eac9&chksm=e9183059de6fb94f62692bb813e487e34a22b3d0fec58d38b69e6016b3bf9833b0c709c2e226&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（八）：Redis 主从复制及数据恢复实践](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538076&idx=2&sn=539b3413b390e7e4b7452e9a20ca7e06&chksm=e9183080de6fb996c223c217c0a99d4eb72dfa814d503e9f76e96f9ca0038046346cfa6a710d&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（九）：Redis sentinel 集群原理部署及数据恢复](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538118&idx=2&sn=c6554423c1d7a0040be974900e5a9598&chksm=e91830dade6fb9cc7916856d2c44df8519e63cf461c179380d53b0c8078da9193e9e0656e5c6&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（十）：Redis Cluster 集群分片技术](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538179&idx=2&sn=6c74f77561dc2a0f5c54cf9173538a4a&chksm=e918331fde6fba09e37d94fd0e9983b95f6f0128fc6c5d2c737c3f0ca058a3dec7f1504df3a5&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（十一）：Redis Cluster 交叉复制与故障切换实战](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538180&idx=2&sn=1a9a8d19949c888b9ade1900c59a0b8c&chksm=e9183318de6fba0e1e1d862afd5529ed23c187401008761296fc58e1f14eeb42a9005246d950&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（十二）：使用 Redis 官方工具自动部署 Cluster 集群实践](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538261&idx=2&sn=da7a9ef79e50aaeff720197485172f5d&chksm=e9183349de6fba5fead9896c79ed434b89a0d5c4a40b8f21c3e32f5f365959a636e13e45684a&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（十三）：Redis Cluster 集群扩容原理与实践](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538272&idx=2&sn=af26088216a1724215fad73de51f2ba6&chksm=e918337cde6fba6ab2271c992c2eb64a38546b4620d83779e4a24cac336cc0fd52a3366041ba&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（十四）：Redis Cluster 集群收缩原理与实践](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538317&idx=2&sn=0c02a095f302b4c5f25185f52240a1d3&chksm=e9183391de6fba8717156b67cc31a7d18879606a06e7017e12b2cf38c09a5ebf8a17cd412f6b&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（十五）：Redis 与Java\\Php\\Springboot 等应用的连接与使用](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538380&idx=2&sn=0b6d05c00381d14a68c02b92bcf3cba2&chksm=e91833d0de6fbac6ade230b44406d84f6ecccbf063948c6127235a93c4a760ddea9e073126a8&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（十六）：Redis 常用运维脚本](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538464&idx=2&sn=e0f3058ffb6b58404a6e7c86ccfad35b&chksm=e918323cde6fbb2a8f8ba4a384deed338c39f97f11037038db1f1e3a7dbaf43a4c64eb611fe7&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（十七）：Redis 缓存问题（一致性、击穿、穿透、雪崩、污染）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538612&idx=2&sn=be834b4ff6a0ccd976a103668918b622&chksm=e91832a8de6fbbbe4aff9267073e305b91dda9449045e531faf76e15c6b63fb973af5cf41e8a&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（十八）：Redis 内存消耗及回收](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538768&idx=2&sn=cd9b557edb2876e55165142fbcc1c6fa&chksm=e9183d4cde6fb45ab7c348d27af800dab9bba90479d4a34f4adc5b3cda8ad34368374944a6da&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（十九）：Redis Key 过期时间相关的命令、注意事项、回收策略](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538816&idx=2&sn=2601d2957ddc62f04bd17cfcbed86429&chksm=e9183d9cde6fb48a56e1a42fa010267bd9702bdc69cdd18b86c40fb357a48a980e1ad91622c8&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（二十）：Redis 性能优化与问题排查](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538955&idx=2&sn=b0f17389d0d7c6586e214be1991ec4d5&chksm=e9183c17de6fb501a2533b9213cacaa25335a6b9e39eb59d9ac83dfd3f6ac0db73622b406ff1&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（二十一）：Redis 性能测试及相关工具使用](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247538977&idx=2&sn=af3a0ea7d67d553fdb27d1ed0a10593e&chksm=e9183c3dde6fb52b117ff07d869947203d04ec2364d1d45b8445029d86a179eebf9a5a7dbbc0&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（二十二）：Redis 运维监控（指标、体系建设、工具使用）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539037&idx=2&sn=a2ea1a7b41510dc05f6cae926b3059b0&chksm=e9183c41de6fb557455a36842f394d9b257b606c257fd80e9dd4df5b4a72be4a63238d173f44&scene=21#wechat_redirect)  
+
+[死磕 NoSQL 数据库系列（二十三）：Redis 开发规范](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539073&idx=2&sn=3ff35f4e842cc73e45e9ec688b9ec7b7&chksm=e9183c9dde6fb58b0b9b650cb5dc44a1263306244ec5028fd0ef5c196bd0fbfcbf06f47ce357&scene=21#wechat_redirect)
 
 #### MongoDB
 
 MongoDB 是面向文档的 NoSQL 数据库，用于大量数据存储。MongoDB 是一个在 2000 年代中期问世的数据库。属于 NoSQL 数据库的类别。
 
-详细内容可查阅专栏：
+[硬卷 NoSQL 数据库系列（一）：MongoDB  知识体系与基础概念](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539122&idx=2&sn=437351196ae35c460cec6016f7b52e15&chksm=e9183caede6fb5b86b41112b86b3eb34a4866fdfb5eec941cde8517df118dfc1c35b063414fc&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（二）：MongoDB 安装与 CURD 基本操作](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539123&idx=2&sn=a6295ebf41cd6e0b471789bf8cb38192&chksm=e9183cafde6fb5b9dc73b02a617c20a48c5387c206a7f3811670bab98211aa7c3fe4a8c9a42f&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（三）：MongoDB 索引与聚合](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539163&idx=2&sn=f53e7d0025314ca85fb0f20a853a887d&chksm=e9183cc7de6fb5d169982db9ec833e3ab8b54f9c70c4238d509dd319334e761b137ead30df45&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（四）：MongoDB 基本使用（工具、API、Spring 集成）](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539209&idx=2&sn=3b381be03821365d1d85d35323d834fb&chksm=e9183f15de6fb60338040b158b9b1ae930daffe2fb50dec691996dcae5b94e8ee7fe9d27dd36&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（五）：MongoDB 常用管理命令与授权认证](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539237&idx=2&sn=246ae59c4951b9609428c054978955d3&chksm=e9183f39de6fb62f778c0740c51fd9f6b04fa5edf39e32572e3647bde99c6aa7908c63ae93ae&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（六）：MongoDB 存储引擎 WiredTiger 技术详解](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539311&idx=2&sn=fde636ce5a026d7ade6921a019779e39&chksm=e9183f73de6fb665bf5d4be1c5cd24101f435d628663e04984cacee192cee92f2818ceba42c1&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（七）：MongoDB 复制集技术原理详解](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539338&idx=2&sn=fc1630228936db57662823a4de574018&chksm=e9183f96de6fb680d6c14412cf62bfae78a2a32e3f5342b071c046e34adf6ec36c66d2e5546d&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（八）：MongoDB 集群部署与配置实践](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539405&idx=2&sn=9acede409e253695bd164266747b89db&chksm=e9183fd1de6fb6c7d53f381c03de5063b5c64909b4ed96cbc3ad550adb64a483f976ddebaccd&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（九）：MongoDB 分片（sharding）技术](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539457&idx=2&sn=6701346d4383af02ecbd6f89f2c266e5&chksm=e9183e1dde6fb70bb8c3d859dc195ea50f938ceb4874ac234d6bd83efc5a37f3f2100e7464aa&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（十）：MongoDB 数据库备份与恢复](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539471&idx=2&sn=6218c36d00ee67d0b4dc0c4dc6d1fbda&chksm=e9183e13de6fb705efd9cf83f92da4ef76d90403f6506081682c47d7d9bb48c9fbfd0941cc75&scene=21#wechat_redirect)
+
+[硬卷 NoSQL 数据库系列（十一）：MongoDB 状态检测与性能追踪](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539506&idx=2&sn=1a78e6c0a172fe3051808e14dfafe56b&chksm=e9183e2ede6fb73889922fcfcaf5930356269a0958669e8fb22ebe5a199ba9ed0004127413d8&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（十二）：MongoDB 客户端管理工具](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539543&idx=2&sn=3cc5c2153c20266db0709d483c738953&chksm=e9183e4bde6fb75d795b13ccfb8feee5c7d74e7a46e14f96128dd55f56e049e1f9e3abe9c30e&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（十三）：MongoDB 日志分析工具](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539592&idx=2&sn=ccba687cf304b13104775de0d3c0cb7c&chksm=e9183e94de6fb78203ad071825bc8abd7e057d32b37b6602f20cfe0140ca91eda25af1ee71a2&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（十四）：MongoDB 查询聚合性能优化](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539594&idx=2&sn=1d95b1210d957c32b9ae2feee6a3d0c1&chksm=e9183e96de6fb7803a40ebb99229847afda9c7b634997218a239203e1fdafc524029f63d8b80&scene=21#wechat_redirect)  
+
+[硬卷 NoSQL 数据库系列（十五）：MongoDB 数据库设计开发规范](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539609&idx=2&sn=85ecc081c2f159421604928537da1ad5&chksm=e9183e85de6fb7937982f04fc1c50d1bb0d4ca90b0eb689f2ad34bb6befe45e7c4f32e2fab71&scene=21#wechat_redirect)
 
 #### ElasticSearch
 
 ElasticSearch是一款非常强大的、基于Lucene的开源搜索及分析引擎；它是一个实时的分布式搜索分析引擎，它能让你以前所未有的速度和规模，去探索你的数据。它被用作**全文检索**、**结构化搜索**、**分析**以及这三个功能的组合。
 
-详细内容可查阅专栏：
+除了搜索，结合Kibana、Logstash、Beats开源产品，Elastic Stack（简称ELK）还被广泛运用在大数据近实时分析领域，包括：日志分析、指标监控、信息安全等。它可以帮助你探索海量结构化、非结构化数据，按需创建可视化报表，对监控数据设置报警阈值，通过使用机器学习，自动识别异常状况。
+
+ElasticSearch是基于Restful WebApi，使用Java语言开发的搜索引擎库类，并作为Apache许可条款下的开放源码发布，是当前流行的企业级搜索引擎。其客户端在Java、C#、PHP、Python等许多语言中都是可用的。
+
+所以，ElasticSearch具备两个优势：
+- 天生支持分布式，可水平扩展；
+- 提供了Restful接口，降低全文检索的学习曲线，因为Restful接口，所以可以被任何编程语言调用.
+
+[边学边实战系列（一）：ElasticSearch 基础概念、生态和应用场景](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539667&idx=2&sn=7ddffcbee09c41c6c7ae160f4968c954&chksm=e9183ecfde6fb7d93c96d4f2add1fa583b0c2c021f8885266ce799a5a1185addb74672a856e5&scene=21#wechat_redirect)  
+
+[边学边实战系列（二）：ElasticSearch 技术原理图解](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539744&idx=2&sn=38093c6e2da073a364ab886bb9e2f1b6&chksm=e918393cde6fb02a4cd462a4faf57fd8f8e02335dac044d9a0722ac5f4407be38cce86d36e0b&scene=21#wechat_redirect)  
+
+[边学边实战系列（三）：ElasticSearch 安装与基础使用](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539791&idx=2&sn=c336b4a12d8b7f65c868a257f81348ba&chksm=e9183953de6fb045bc45659613a9701125ec09a186bded27d8eb8c52140293df484514795320&scene=21#wechat_redirect)  
+
+[边学边实战系列（四）：ElasticSearch 索引管理](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539868&idx=2&sn=7d44b906248c84f8de261c6c81a7e9df&chksm=e9183980de6fb0969794e87cdffe908bd78fdb678464a0281ee2313dbe0b6a7a893a07cc1abc&scene=21#wechat_redirect)  
+
+[边学边实战系列（五）：ElasticSearch DSL 查询原理与实践](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539928&idx=2&sn=2679d1427b947e539fbae5fbfb3356fd&chksm=e91839c4de6fb0d2ae338f7487702cadb750c1a0ef27d99aa5c6285cf863dd67b604ed39bfec&scene=21#wechat_redirect)  
+
+[边学边实战系列（六）：ElasticSearch 聚合查询原理与实践](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247539972&idx=2&sn=b42701ddd96fa91af58f862e95d4c108&chksm=e9183818de6fb10efc25a9bce65308535734c21582a36946654f0c1e792bf099abdf835694cb&scene=21#wechat_redirect)  
+
+[边学边实战系列（七）：ElasticSearch 文档索引与读取流程详解](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247540012&idx=2&sn=49ea46d157542ef5e6eb90e4f2b06636&chksm=e9183830de6fb12608461d2d37ec122859b890d0d80249e492a366b88c0f505e300967b83d91&scene=21#wechat_redirect)  
+
+[边学边实战系列（八）：ElasticSearch 集群部署、分片与故障转移](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247540052&idx=2&sn=e62c0fe3319e03555f731749397891c5&chksm=e9183848de6fb15e021cab61a535a69e02708cf7ae30cd71dc2c9421026fcce7b7702eaf9b6d&scene=21#wechat_redirect)  
+
+[边学边实战系列（九）：ElasticSearch 集群规划与运维经验总结](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247540072&idx=2&sn=65e5aa395a70c093b33aca7f1b19216b&chksm=e9183874de6fb16277268409622a6dbe8bdc4abaa2c10ce7b6250a627c493fdbf9d3956399c7&scene=21#wechat_redirect)  
+
+[边学边实战系列（十）：ElasticSearch 分片/副本与数据操作流程](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247540140&idx=2&sn=59b2e0a53094bd037cdf53000a514dc9&chksm=e91838b0de6fb1a64242f911e0387aa5041901a9d6c47af379a9c3d60fe10b157fbc92498888&scene=21#wechat_redirect)  
+
+[边学边实战系列（十一）：ElasticSearch 数据备份与迁移](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247540150&idx=2&sn=7b2e673c6709236ddffb074ecab9d00d&chksm=e91838aade6fb1bcd75bdcc1be3ba6469eddcac64ce3df2efae463f0351fb6a43e886d961447&scene=21#wechat_redirect)  
+
+[边学边实战系列（十二）：ElasticSearch 常用 Curl 命令实践](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247540230&idx=2&sn=3bb7d0291246326533ac68e84c1a47db&chksm=e9183b1ade6fb20c653fec912df9ddf10e20dd85d35ee0e81c604d3a84e1b1b8bfcf9f1a3580&scene=21#wechat_redirect)  
+
+[边学边实战系列（十三）：ElasticSearch 可视化管理工具](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247540242&idx=2&sn=9d29855ef28b78d99ac44d0065c44617&chksm=e9183b0ede6fb218b1f495580674a784c5ac332c917ed6e24b2ba2f3986d8929e0287c882d59&scene=21#wechat_redirect)  
+
+[边学边实战系列（十四）：ElasticSearch 性能优化详解](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247540283&idx=2&sn=27da38118a7a89ae1db1d698d6a714be&chksm=e9183b27de6fb231b2f0545f6ab9cc8a3a7e45a825cf28b6aa7aabf04583012a082e37c262b8&scene=21#wechat_redirect)  
+
+[边学边实战系列（十五）：ElasticSearch 性能监控](http://mp.weixin.qq.com/s?__biz=MzI0MDQ4MTM5NQ==&mid=2247540363&idx=2&sn=9e05122729cab5397c9b5a783d6b9ff5&chksm=e9183b97de6fb2816dc9171a728671959cec86967ec1a22b885df6c6b08fd99c24374784d758&scene=21#wechat_redirect)
 
 ## Tomcat 技术实践
 
